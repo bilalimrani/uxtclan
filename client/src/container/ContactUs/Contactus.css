@@ -1,0 +1,18 @@
+.contactContainer {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.contactHeading {
+  font-weight: bold;
+  text-align: center;
+}
+
+.form1 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contactus {
+  display: flex;
+}

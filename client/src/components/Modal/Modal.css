@@ -1,0 +1,12 @@
+.heading {
+  text-align: center;
+}
+
+.react-responsive-modal-closeButton {
+  top: 1px;
+  right: 2px;
+}
+
+.react-responsive-modal-modal {
+  width: 40%;
+}

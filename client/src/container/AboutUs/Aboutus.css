@@ -1,0 +1,14 @@
+.aboutContainer {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.aboutHeading {
+  font-weight: bold;
+  text-align: center;
+}
+
+.aboutParagraph {
+  text-align: left;
+  padding: 0px 150px 10px 150px;
+}

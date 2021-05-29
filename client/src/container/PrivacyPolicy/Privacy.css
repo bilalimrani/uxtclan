@@ -1,0 +1,14 @@
+.privacyContainer {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.privacyHeading {
+  font-weight: bold;
+  text-align: center;
+}
+
+.privacyParagraph {
+  text-align: left;
+  padding: 0px 150px 10px 150px;
+}
