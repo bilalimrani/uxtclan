@@ -4,9 +4,12 @@ import 'react-responsive-modal/styles.css';
 import Modal from 'react-responsive-modal';
 import { useAlert } from 'react-alert';
 import './Modal.css';
+import SuccessModel from './successmodel.js'
 
 const Popup = ({ isOpen, onClose }) => {
   const [data, setData] = useState({});
+  const [isSuccessModel, setIsSuccessModel] = useState(false);
+
   const alert = useAlert();
 
   const formData = (field, e) => {
@@ -16,7 +19,7 @@ const Popup = ({ isOpen, onClose }) => {
   const hireus = (e) => {
     e.preventDefault();
     onClose();
-    alert.show('Thank You! We will contact you shortly.');
+    setIsSuccessModel((isSuccessModel) => !isSuccessModel);
     axios
       .post('/hireus', data)
       .then(function (response) {
@@ -26,37 +29,52 @@ const Popup = ({ isOpen, onClose }) => {
         console.log(error);
       });
   };
+
+  const onCloseSuccess = () => {
+    setIsSuccessModel((isSuccessModel) => !isSuccessModel);
+
+  }
+
+
   return (
     <div>
+    {<SuccessModel title='Success!' description='We have received your requirements.' description2='Our customer service representative will contact you soon.'  isOpen={isSuccessModel} onClose={onCloseSuccess} />}
       <Modal center open={isOpen} onClose={onClose}>
         <h5 className='heading'>Hire Us</h5>
         <div>
           <form>
             <div className='form-group'>
+            <label for="exampleInputEmail1">Name<span>*</span></label>
               <input
                 type='text'
                 onChange={(e) => setData({ ...data, name: e.target.value })}
                 className='form-control'
-                placeholder='Name'
+                placeholder='John Ellen'
               />
+               <img src='assets/images/user.svg' />
             </div>
             <div className='form-group'>
+            <label for="exampleInputEmail1">Email<span>*</span></label>
               <input
                 type='text'
                 onChange={(e) => setData({ ...data, email: e.target.value })}
                 className='form-control'
-                placeholder='Email'
+                placeholder='john@gmail.com'
               />
+              <img src='assets/images/envelope.svg' />
             </div>
             <div className='form-group'>
+            <label for="exampleInputEmail1">Phone</label>
               <input
                 type='text'
                 onChange={(e) => setData({ ...data, phone: e.target.value })}
                 className='form-control'
-                placeholder='Phone'
+                placeholder='+16135550171'
               />
+              <img src='assets/images/phone.svg' />
             </div>
             <div className='form-group'>
+             <label for="exampleInputEmail1">Requirements</label>
               <textarea
                 className='form-control'
                 rows='5'
@@ -66,16 +84,20 @@ const Popup = ({ isOpen, onClose }) => {
                 placeholder='Tell us about your requirements'
               ></textarea>
             </div>
+            <div className="text-center">
             <button
               onClick={hireus}
               type='submit'
-              className='btn btn-primary my-1'
+              className='btn py-2 btn-primary '
             >
-              Submit
+              Send
             </button>
+            </div>
           </form>
         </div>
       </Modal>
+
+
     </div>
   );
 };

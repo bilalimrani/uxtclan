@@ -6,7 +6,7 @@ import OurTeams from '../OurTeams';
 import Processes from '../Processes';
 import Projects from '../Projects';
 import Services from '../Services';
-import Banner from '../Banner';
+import Banner from '../Banner'; 
 import './Main.css';
 
 const Main = () => {
@@ -19,11 +19,11 @@ const Main = () => {
               <div className='row align-items-center'>
                 <div className=' adjust col-10 col-md-10'>
                   <p className='m-0'>
-                    Get the latest news & updates on
-                    <span className='mob-view'>
-                      COVID-19.
-                      <a href='https://www.who.int/health-topics/coronavirus#tab=tab_1'>
-                        Read More
+                    Get the latest news & updates on 
+                    <span className='mob-view ml-1'>
+                       COVID-19.
+                      <a className="ml-1" href='https://www.who.int/health-topics/coronavirus#tab=tab_1'>
+                         Read More
                       </a>
                     </span>
                   </p>
@@ -56,7 +56,7 @@ const Main = () => {
                   </p>
                 </div>
                 <div className='col-12 col-md-2 text-center'>
-                  <button className='close-div btn-primary btn'>Accept</button>
+                  <button className='close-div btn-primary btn mt-3 mt-md-0'>Accept</button>
                 </div>
               </div>
             </div>

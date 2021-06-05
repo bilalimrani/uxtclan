@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const NewLetter = () => {
   return (
     <section className='newsletter'>

@@ -15,10 +15,10 @@ const Header = () => {
         <div className='container'>
           <nav className='navbar navbar-expand-lg '>
             <a className='navbar-brand' href='index.html'>
-              <img src='assets/images/logo.svg' />
+              <img src='assets/images/footer-logo.svg' />
             </a>
             <button
-              className='navbar-toggler x'
+              className='navbar-toggler x collapsed'
               type='button'
               data-toggle='collapse'
               data-target='#navbarsExample05'

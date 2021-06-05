@@ -11,16 +11,16 @@ const Processes = () => {
           <div className='co-12 col-md-6'>
             <h5 className='mb-3'>
               Design{' '}
-              <span className='section-bage'>International Standards</span>
+              <span className='section-bage'>INTERNATIONAL STANDARS</span>
             </h5>
             <ul className='p-0'>
-              <li>- Human Centered Design Methods (By IDEO) </li>
-              <li>- Design Thinking (By IDEO) </li>
-              <li>- Design Sprints (By Google) </li>
+              <li>- Human Centered Design Methods </li>
+              <li>- Design Thinking  </li>
+              <li>- Design Sprints</li>
             </ul>
             <h5 className='mb-3'>
               Development{' '}
-              <span className='section-bage'>International Standards</span>
+              <span className='section-bage'>INTERNATIONAL STANDARS </span>
             </h5>
             <ul className='p-0'>
               <li>- Agile Methodology</li>

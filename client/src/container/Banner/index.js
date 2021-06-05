@@ -46,7 +46,7 @@ const Banner = () => {
                 </span>
               </div>
               <div className='text-sm-left text-center'>
-                <button className='btn-primary btn mt-4' onClick={hireUs}>
+                <button className='btn-primary btn mt-4 py-2' onClick={hireUs}>
                   Let’s Talk
                 </button>
               </div>
@@ -58,6 +58,13 @@ const Banner = () => {
             </div>
           </div>
         </div>
+
+
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+
+
       </section>
     </div>
   );
