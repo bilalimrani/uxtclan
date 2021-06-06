@@ -1,4 +1,6 @@
 import React, { useState, Fragment } from 'react';
+import { Link } from 'react-router-dom';
+import history from '../../history';
 import Modal from '../../components/Modal';
 
 const Header = () => {
@@ -8,13 +10,17 @@ const Header = () => {
     setHireUsPopup((isHireUsPopup) => !isHireUsPopup);
   }
 
+  const goto = () => {
+    window.location.href = '/';
+  };
+
   return (
     <Fragment>
       <Modal isOpen={isHireUsPopup} onClose={hireUs} />
       <header className='header'>
         <div className='container'>
           <nav className='navbar navbar-expand-lg '>
-            <a className='navbar-brand' href='index.html'>
+            <a className='navbar-brand' onClick={goto}>
               <img src='assets/images/footer-logo.svg' />
             </a>
             <button
