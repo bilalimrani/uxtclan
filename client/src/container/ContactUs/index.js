@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
+
 import axios from 'axios';
 import { useAlert } from 'react-alert';
 import './Contactus.css';
+import SuccessModel from '../../components/Modal/successmodel.js'
+
 
 const ContactUs = () => {
   const [data, setData] = useState({});
+  const [isSuccessModel, setIsSuccessModel] = useState(false);
+
   const alert = useAlert();
 
   const contactUs = (e) => {
     e.preventDefault();
-    alert.show('Thank You! We will contact you shortly.');
+       setIsSuccessModel((isSuccessModel) => !isSuccessModel);
+
     axios
       .post('/contactus', data)
       .then(function (response) {})
@@ -17,44 +23,58 @@ const ContactUs = () => {
         console.log(error);
       });
   };
+
+  const onCloseSuccess = () => {
+    setIsSuccessModel((isSuccessModel) => !isSuccessModel);
+
+  }
   return (
     <div className='contactContainer'>
+    {<SuccessModel title='Success!' description='We have received your requirements.' description2='Our customer service representative will contact you soon.' isOpen={isSuccessModel} onClose={onCloseSuccess} />}
+    {}
       <h5 className='contactHeading'>Contact Us</h5>
       <div className='form1'>
         <form>
           <div className='form-group'>
+           <label for="exampleInputEmail1">Name<span>*</span></label>
             <input
               type='text'
               className='form-control'
-              placeholder='Name'
+              placeholder='John Ellen'
               onChange={(e) => setData({ ...data, name: e.target.value })}
             />
+             <img src='assets/images/user.svg' />
           </div>
           <div className='form-group'>
+           <label for="exampleInputEmail1">Email<span>*</span></label>
             <input
               type='text'
               className='form-control'
-              placeholder='Email'
-              onChange={(e) => setData({ ...data, email: e.target.value })}
+              placeholder='john@gmail.com'required 
+              onChange={(e) => setData({ ...data, email: e.target.value })} 
             />
+             <img src='assets/images/envelope.svg' />
           </div>
           <div className='form-group'>
+           <label for="exampleInputEmail1">Description</label>
             <textarea
               className='form-control'
               rows='5'
-              placeholder='Tell us about your requirements'
+              placeholder='Tell us '
               onChange={(e) =>
                 setData({ ...data, description: e.target.value })
               }
             ></textarea>
           </div>
+          <div className="text-center">
           <button
             onClick={contactUs}
             type='submit'
-            className='btn btn-primary my-1'
+            className='py-2 btn btn-primary mt-4 mt-md-5'
           >
-            Submit
+            Send
           </button>
+          </div>
         </form>
       </div>
     </div>

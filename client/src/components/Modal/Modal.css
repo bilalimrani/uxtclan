@@ -1,12 +1,119 @@
 .heading {
-  text-align: center;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #0A0A0A;
 }
-
+input{
+border: 0.5px solid #B6B6B6!important;
+border-radius: 14px!important;
+padding: 11px 11px 11px 35px!important;
+font-style: normal!important;
+font-weight: normal!important;
+font-size: 16px!important;
+line-height: 26px!important;
+position: relative;
+}
+input:focus , input:active{
+box-shadow: none!important;
+outline: none;
+}
+.form-group {
+position: relative;
+}
+.form-group img{
+position: absolute;
+bottom: 12px;
+left: 10px;
+width: 18px;
+}
 .react-responsive-modal-closeButton {
-  top: 1px;
-  right: 2px;
+top: -14px;
+right: -5px;
+background-color: #EC094E;
+border-radius: 14px;
+}
+.react-responsive-modal-closeButton svg{
+fill: white;
+}
+.react-responsive-modal-modal {
+width: 40%;
+border-radius: 10px;
+overflow: unset;
+
+}
+textarea{
+border-radius: 14px!important;
+resize: none;
+border: 0.5px solid #B6B6B6;
+}
+textarea:focus , textarea:active{
+box-shadow: none!important;
+outline: none;
+border-color: #B6B6B6!important;
+}
+label{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.44px;
+color: #0A0A0A;
+}
+label span{
+color: #FD5800;
 }
 
+.react-responsive-modal-container{
+height: 100%;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+  
+}
+
+
+
+.success-modal img{
+margin-bottom: 24px;
+}
+
+
+.success-modal h5{
+	font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+}
+.success-modal p{
+	font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 0;
+}
+.success-modal button{
+margin-top: 24px;
+	}
+@media screen and (max-width: 998px){
 .react-responsive-modal-modal {
-  width: 40%;
+width: 90%;
+}
+}
+@media screen and (max-width: 556px){
+
+.react-responsive-modal-container{
+	display: flex;
+}
+}
+
+
+
+.my-modal > div {
+min-height: 80px;
+max-height: 80px;
 }

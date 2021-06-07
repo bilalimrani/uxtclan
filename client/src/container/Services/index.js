@@ -22,14 +22,15 @@ const Services = () => {
                 <li>* User Interviews</li>
                 <li>* Competitor Research</li>
                 <li>* Customer Journey Map</li>
-                <li>* User Flow</li>
+                <li>* Business Model Canvas</li>
               </ul>
             </div>
             <div className='col-12 col-sm-6 col-md-4'>
               <ul>
+              <li>* User Flow</li>
                 <li>* Site Map </li>
                 <li>* Information Architecture </li>
-                <li>* Heuristic Evaluation (Design Audit) </li>
+               
                 <li> * Hi-Fi & Lo-Fi Digital Wireframes </li>
                 <li>* Rapid Prototyping </li>
                 <li>* Users/Usability Testing</li>

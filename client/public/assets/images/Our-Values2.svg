@@ -1,20 +1,7 @@
-<svg width="132" height="132" viewBox="0 0 132 132" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d)">
-<circle cx="66" cy="64" r="62" fill="#FAFAFA"/>
-</g>
-<path d="M58.7715 69.4487C63.8651 69.4487 67.9943 65.3195 67.9943 60.2258C67.9943 55.1322 63.8651 51.0029 58.7715 51.0029C53.6778 51.0029 49.5486 55.1322 49.5486 60.2258C49.5486 65.3195 53.6778 69.4487 58.7715 69.4487Z" stroke="#0A0A0A" stroke-width="2" stroke-miterlimit="10"/>
-<path d="M70.7269 51.3457C71.9955 50.9883 73.3259 50.9068 74.6285 51.1069C75.9312 51.3069 77.1758 51.7838 78.2787 52.5054C79.3815 53.227 80.3169 54.1765 81.0218 55.2901C81.7268 56.4036 82.1849 57.6553 82.3654 58.9608C82.5459 60.2663 82.4445 61.5953 82.0681 62.8583C81.6917 64.1214 81.049 65.2891 80.1833 66.2828C79.3176 67.2765 78.249 68.0732 77.0495 68.6192C75.85 69.1651 74.5474 69.4477 73.2294 69.4479" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M46 76.0815C47.4404 74.0326 49.3527 72.3604 51.5753 71.2059C53.798 70.0515 56.2657 69.4488 58.7703 69.4487C61.2748 69.4486 63.7427 70.0511 65.9654 71.2054C68.1881 72.3597 70.1005 74.0318 71.5411 76.0805" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M73.2294 69.4487C75.7342 69.4469 78.2025 70.0487 80.4254 71.2031C82.6483 72.3575 84.5603 74.0305 85.9996 76.0805" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<defs>
-<filter id="filter0_d" x="0" y="0" width="132" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="2"/>
-<feGaussianBlur stdDeviation="2"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
-</defs>
+<svg width="124" height="124" viewBox="0 0 124 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="62" cy="62" r="62" fill="#F0F0F0"/>
+<path d="M54.7717 67.4486C59.8654 67.4486 63.9946 63.3193 63.9946 58.2257C63.9946 53.132 59.8654 49.0028 54.7717 49.0028C49.678 49.0028 45.5488 53.132 45.5488 58.2257C45.5488 63.3193 49.678 67.4486 54.7717 67.4486Z" stroke="#FD5800" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M66.7266 49.3457C67.9951 48.9883 69.3255 48.9068 70.6281 49.1069C71.9308 49.3069 73.1755 49.7838 74.2783 50.5054C75.3811 51.227 76.3165 52.1765 77.0215 53.2901C77.7264 54.4036 78.1846 55.6553 78.365 56.9608C78.5455 58.2663 78.4441 59.5953 78.0677 60.8583C77.6913 62.1214 77.0486 63.2891 76.1829 64.2828C75.3172 65.2765 74.2486 66.0732 73.0491 66.6192C71.8496 67.1651 70.547 67.4477 69.2291 67.4479" stroke="#FD5800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42 74.0813C43.4404 72.0324 45.3527 70.3601 47.5753 69.2057C49.798 68.0513 52.2657 67.4486 54.7703 67.4485C57.2748 67.4484 59.7427 68.0509 61.9654 69.2052C64.1881 70.3594 66.1005 72.0315 67.5411 74.0803" stroke="#FD5800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M69.2295 67.4485C71.7343 67.4467 74.2026 68.0484 76.4255 69.2028C78.6484 70.3572 80.5604 72.0303 81.9997 74.0803" stroke="#FD5800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

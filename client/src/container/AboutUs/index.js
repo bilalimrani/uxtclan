@@ -3,10 +3,11 @@ import './Aboutus.css';
 
 const AboutUs = () => {
   return (
-    <div className='aboutContainer'>
+    <div className='about-container container'>
       <h5 className='aboutHeading'>About Us</h5>
-      <div className='contactus'>
-        <p className='privacyParagraph'>
+      <div className='row align-items-center'>
+      <div className="col-12 col-md-6 ">
+      <p className='aboutParagraph'>
           <b>
             We Are Committed to Enable People & Businesses with Ultimate Digital
             Solutions They Need
@@ -38,13 +39,16 @@ const AboutUs = () => {
           Software development. We take pains and design user-centered digital
           solutions that boost the value your business. Are you ready to
           challenge our team with your business digitalization problems?
-          <br />
-          <br />
-          <b>Well, we are ready & one-click away! Hire Us Now</b>
+         
+          <br/>
+          <b>Well, we are ready & one-click away! </b> <a href="#">Hire Us Now</a>
         </p>
-        <div className='right'>
-          <img src='assets/images/contactus.svg' />
-        </div>
+      </div>
+      <div className="col-12 col-md-6 ">
+       <img src='assets/images/contactus.svg' />
+      </div>
+        
+        
       </div>
     </div>
   );
