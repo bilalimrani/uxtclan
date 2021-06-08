@@ -5,46 +5,45 @@
 
 .contactHeading {
   font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
   text-align: center;
   margin-bottom: 50px;
-
 }
-textarea{
-border-radius: 14px!important;
-resize: none;
-border: 0.5px solid #B6B6B6!Important;
+textarea {
+  border-radius: 14px !important;
+  resize: none;
+  border: 0.5px solid #b6b6b6 !important;
 }
-textarea:focus , textarea:active{
-box-shadow: none!important;
-outline: none;
-border-color: #B6B6B6!important;
+textarea:focus,
+textarea:active {
+  box-shadow: none !important;
+  outline: none;
+  border-color: #b6b6b6 !important;
 }
 .form1 {
   width: 540px;
   margin: 0 auto;
 }
-label span{
-color: #FD5800;
+label span {
+  color: #fd5800;
 }
 
 .contactus {
   display: flex;
 }
-@media screen and (max-width:556px){
-.form1 {
-padding: 10px;
-width: 100%;
-}
-.contactContainer {
-  padding-top: 100px;
-  padding-bottom: 70px;
-}
-.contactHeading {
-  margin-bottom: 50px;
-}
-
+@media screen and (max-width: 556px) {
+  .form1 {
+    padding: 10px;
+    width: 100%;
+  }
+  .contactContainer {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+  .contactHeading {
+    margin-bottom: 25px;
+  }
 }

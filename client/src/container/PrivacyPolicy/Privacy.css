@@ -1,43 +1,44 @@
-
-.privacy-container{
-margin-top: 152px;
-
+.privacy-container {
+  margin-top: 152px;
 }
-.privacy-box{
+.privacy-box {
   max-width: 1140px;
-margin-left: auto;
-margin-right: auto;
-background: #FAFAFA;
-padding: 14px 34px;
-height: 644px;
-overflow: auto;
-margin-bottom: 70px;
-border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fafafa;
+  padding: 14px 34px;
+  max-height: 644px;
+  overflow: auto;
+  margin-bottom: 70px;
+  border-radius: 8px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .privacyHeading {
   font-weight: bold;
   text-align: center;
-font-size: 24px;
-line-height: 32px;
-text-align: center;
-margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .privacyParagraph {
   text-align: left;
- font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.44px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.44px;
 }
 
-
-
-
-
-
-
+@media screen and (max-width: 556px) {
+  .privacy-container {
+    margin-top: 100px;
+    bottom: 70px;
+  }
+}
 
 /* width */
 .privacy-box::-webkit-scrollbar {
@@ -46,16 +47,16 @@ letter-spacing: 0.44px;
 
 /* Track */
 .privacy-box::-webkit-scrollbar-track {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 /* Handle */
 .privacy-box::-webkit-scrollbar-thumb {
-  background: #FD5800;
+  background: #fd5800;
   border-radius: 8px;
 }
 
 /* Handle on hover */
 .privacy-box::-webkit-scrollbar-thumb:hover {
-  background: #FD5800;
+  background: #fd5800;
 }

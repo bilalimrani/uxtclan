@@ -114,7 +114,6 @@ const Popup = ({ isOpen, onClose }) => {
                 required={true}
               ></textarea>
             </div>
-
             <div className='text-center'>
               <button
                 onClick={hireus}

@@ -1,98 +1,120 @@
 .heading {
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-text-align: center;
-color: #0A0A0A;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0a0a0a;
 }
-input{
-border: 0.5px solid #B6B6B6!important;
-border-radius: 14px!important;
-padding: 11px 11px 11px 35px!important;
-font-style: normal!important;
-font-weight: normal!important;
-font-size: 16px!important;
-line-height: 26px!important;
-position: relative;
+input {
+  border: 0.5px solid #b6b6b6 !important;
+  border-radius: 14px !important;
+  padding: 11px 11px 11px 35px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  position: relative;
 }
-input:focus , input:active{
-box-shadow: none!important;
-outline: none;
+input:focus,
+input:active {
+  box-shadow: none !important;
+  outline: none;
 }
 .form-group {
-position: relative;
+  position: relative;
 }
-.form-group img{
-position: absolute;
-bottom: 12px;
-left: 10px;
-width: 18px;
+.form-group img {
+  position: absolute;
+  bottom: 12px;
+  left: 10px;
+  width: 18px;
 }
 .react-responsive-modal-closeButton {
-top: -14px;
-right: -5px;
-background-color: #EC094E;
-border-radius: 14px;
+  top: -14px;
+  right: -5px;
+  background-color: #ec094e;
+  border-radius: 14px;
 }
-.react-responsive-modal-closeButton svg{
-fill: white;
+.react-responsive-modal-closeButton svg {
+  fill: white;
 }
 .react-responsive-modal-modal {
-width: 40%;
-border-radius: 10px;
-overflow: unset;
+  width: 40%;
+  border-radius: 10px;
+  overflow: unset;
 }
-textarea{
-border-radius: 14px!important;
-resize: none;
-border: 0.5px solid #B6B6B6;
+textarea {
+  border-radius: 14px !important;
+  resize: none;
+  border: 0.5px solid #b6b6b6;
 }
-textarea:focus , textarea:active{
-box-shadow: none!important;
-outline: none;
-border-color: #B6B6B6!important;
+textarea:focus,
+textarea:active {
+  box-shadow: none !important;
+  outline: none;
+  border-color: #b6b6b6 !important;
 }
-label{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.44px;
-color: #0A0A0A;
+label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.44px;
+  color: #0a0a0a;
 }
-label span{
-color: #FD5800;
-}
-
-
-
-
-
-.success-modal img{
-margin-bottom: 24px;
+label span {
+  color: #fd5800;
 }
 
+.react-responsive-modal-container {
+  height: 100%;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+label span {
+  color: #fd5800;
+}
 
-.success-modal h5{
-	font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
-text-align: center;
+.success-modal img {
+  margin-bottom: 24px;
 }
-.success-modal p{
-	font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 0;
+
+.success-modal h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
 }
-.success-modal button{
-margin-top: 24px;
-	}
-@media screen and (max-width: 998px){
-.react-responsive-modal-modal {
-width: 90%;
+.success-modal p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0;
 }
+.success-modal button {
+  margin-top: 24px;
+}
+@media screen and (max-width: 998px) {
+  .react-responsive-modal-modal {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 556px) {
+  .react-responsive-modal-container {
+    display: flex;
+  }
+
+  .react-responsive-modal-modal {
+    height: 580px;
+  }
+}
+
+.my-modal > div {
+  min-height: 80px;
+  max-height: 80px;
 }

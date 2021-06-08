@@ -32,6 +32,7 @@ const ContactUs = () => {
   const onCloseSuccess = () => {
     setIsSuccessModel((isSuccessModel) => !isSuccessModel);
   };
+
   return (
     <div className='contactContainer'>
       {
@@ -93,7 +94,7 @@ const ContactUs = () => {
             <button
               onClick={contactUs}
               type='submit'
-              className='py-2 btn btn-primary mt-5'
+              className='py-2 btn btn-primary mt-4 mt-md-5'
             >
               Send
             </button>

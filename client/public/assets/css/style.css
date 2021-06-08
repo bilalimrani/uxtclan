@@ -69,7 +69,9 @@ button,
 span {
   font-family: 'Roboto', sans-serif;
 }
-
+.btn-bg{
+    background: #FD5800 !important;
+}
 .btn-primary {
   background: #FD5800;
   color: #fff;
@@ -1344,17 +1346,11 @@ html {
 
 /************ LOADER css end *********** */
 
-
-
 .navbar-toggler{
   padding: 0px !important;
 
 }
-
-
-
-
-.navbar-toggler:hover{
+.navbar-toggler:active {
  background: #313131;
     height: 32px;
     width: 32px;
@@ -1365,4 +1361,9 @@ html {
   background: unset!important;
   height:unset !important;
   width:unset !important;
+}
+
+
+.my-modal{
+color: red;
 }

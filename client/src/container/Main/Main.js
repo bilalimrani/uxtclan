@@ -49,9 +49,7 @@ const Main = () => {
                   <p className='m-0'>
                     We use cookies to enhance your experience, analyze traffic,
                     marketing, and security. By visiting our website, you agree
-                    to our use of cookies.
-                    <a href='#'>
-                      Learn <i className='fas fa-arrow-up'></i>
+                    to our use of cookies.    <a href='#'>  Learn <i className='fas fa-arrow-up'></i>
                     </a>
                   </p>
                 </div>
