@@ -11,12 +11,6 @@ const Popup = ({ isOpen, onClose }) => {
   const [isSuccessModel, setIsSuccessModel] = useState(false);
   const [isFormValidate, setIsFormValidate] = useState(false);
 
-  const alert = useAlert();
-
-  const formData = (field, e) => {
-    setData({ field: e });
-  };
-
   const hireus = (e) => {
     e.preventDefault();
 
