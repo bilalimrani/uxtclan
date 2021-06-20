@@ -171,9 +171,9 @@ app.post('/subscribe', async (req, res) => {
 	res.send({ status: 200 });
 });
 
-app.use(express.static(path.join('./client/build')));
+app.use(express.static(path.join('/client/build')));
 app.get('/', (req, res) => {
-	res.sendFile(path.join('./client/build', 'index.html'));
+	res.sendFile(path.join('/client/build', 'index.html'));
 });
 
 const port = process.env.PORT || 3001;
