@@ -13,11 +13,11 @@ app.get('/api', (req, res) => {
 });
 
 let transporter = nodemailer.createTransport({
-	service: 'gmail',
+	// service: 'gmail',
 	host: 'smtp.gmail.com',
-	port: 465,
-	secure: true,
-	// ignoreTLS: false,
+	port: 587,
+	secure: fasle,
+	ignoreTLS: false,
 	auth: {
 		user: 'bimrani816@gmail.com',
 		pass: 'rana7441634',
